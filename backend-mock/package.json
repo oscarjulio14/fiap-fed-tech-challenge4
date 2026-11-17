@@ -1,0 +1,16 @@
+{
+  "name": "blog-backend-mock",
+  "version": "1.0.0",
+  "description": "Backend mock (REST) do blog - usado para demonstrar o app mobile do Tech Challenge Fase 4",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "reset": "node -e \"require('fs').rmSync('data.json',{force:true});console.log('Dados resetados para o seed.')\""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.3",
+    "jsonwebtoken": "^9.0.3"
+  }
+}

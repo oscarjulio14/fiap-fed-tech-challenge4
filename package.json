@@ -1,0 +1,14 @@
+{
+  "name": "tech-challenge-4",
+  "private": true,
+  "description": "Tech Challenge Fase 4 - Blog mobile (React Native + Expo)",
+  "scripts": {
+    "install:all": "npm --prefix backend-mock install && npm --prefix mobile install",
+    "backend": "npm --prefix backend-mock start",
+    "backend:reset": "npm --prefix backend-mock run reset",
+    "mobile": "npm --prefix mobile start",
+    "android": "npm --prefix mobile run android",
+    "web": "npm --prefix mobile run web",
+    "test": "npm --prefix mobile test"
+  }
+}
